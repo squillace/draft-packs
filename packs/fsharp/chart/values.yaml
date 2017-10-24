@@ -1,0 +1,22 @@
+# Default values for Maven projects.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+replicaCount: 4
+# Draft overwrites the following values, but 
+# the end draft pack should have the correct values for documentation purposes.
+image:
+  repository: microsoft/dotnet
+  tag: sdk
+  pullPolicy: Always
+service:
+  name: fsharp-dotnetcore2
+  type: ClusterIP
+  externalPort: 80
+  internalPort: 5000
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi

@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for fsharp web service in Kubernetes using dotnetcore 2.0.
+name: fsharp-dotnetcore2
+version: v0.2.0

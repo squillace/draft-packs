@@ -1,0 +1,7 @@
+name: rating-web
+home: https://github.com/squillace/rating-charts
+version: 1.0
+description: Charts for deploying ratings app to k8s
+maintainers: 
+  - name: squillace
+    email: ralph.squillace@microsoft.com

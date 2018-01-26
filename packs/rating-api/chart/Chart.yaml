@@ -1,0 +1,7 @@
+name: rating-api
+home: https://github.com/squillace/rating-api
+version: 1.0
+description: Charts for deploying ratings app to k8s
+maintainers: 
+  - name: squillace
+    email: ralph.squillace@microsoft.com

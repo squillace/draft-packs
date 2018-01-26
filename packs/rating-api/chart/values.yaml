@@ -1,0 +1,9 @@
+# Default values for chart
+api:
+  name: rating-api
+  deployment: rating-api-prod
+  versionLabel: prod
+  replicas: 1
+  image: "squillace.azurecr.io/squillace/rating-api"
+  imageTag: "latest"
+  serviceType: "LoadBalancer"
